@@ -1,4 +1,4 @@
-package rafael.furtado.concessionaria.feignClients;
+package rafael.furtado.concessionaria.clients;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;

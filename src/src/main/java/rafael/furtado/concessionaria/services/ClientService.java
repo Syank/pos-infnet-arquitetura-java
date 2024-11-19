@@ -2,11 +2,10 @@ package rafael.furtado.concessionaria.services;
 
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import rafael.furtado.concessionaria.entities.Seller;
 import rafael.furtado.concessionaria.entities.client.Address;
 import rafael.furtado.concessionaria.entities.client.Client;
 import rafael.furtado.concessionaria.exceptions.InvalidAddressException;
-import rafael.furtado.concessionaria.feignClients.ViaCEPClient;
+import rafael.furtado.concessionaria.clients.ViaCEPClient;
 import rafael.furtado.concessionaria.repositories.ClientRepository;
 import rafael.furtado.concessionaria.entities.vehicles.Vehicle;
 
